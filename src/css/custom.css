@@ -1,6 +1,6 @@
 /*Darker Color Pallete for Light Mode  */
 :root {
-  --ifm-color-primary: #023066;
+  --ifm-color-primary: #3578e5;
   --ifm-color-primary-dark: #05183E;
   --ifm-color-primary-darker: #081533;
   --ifm-color-primary-darkest: #0A1128;
@@ -12,7 +12,8 @@
 
 /* Light Color Pallette for Dark Mode */
 [data-theme='dark'] {
-  --ifm-color-primary: #88BFCF;
+  
+  --ifm-color-primary: #67d6ed;
   --ifm-color-primary-dark: #4DA1B9;
   --ifm-color-primary-darker: #0B618D;
   --ifm-color-primary-darkest: #034078;
@@ -22,3 +23,4 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
+
