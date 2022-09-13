@@ -25,14 +25,14 @@
         "short_name": "Docs",
         "description": "The entire guide to set up and use the Via Bot",
         "url": "/docs/intro?source=pwa",
-        "icons": [{ "src": "/img/vialogo.png", "sizes": "192x192" }]
+        "icons": [{ "src": "/Website/img/vialogo.png", "sizes": "192x192" }]
       },
       {
         "name": "The Via Blog",
         "short_name": "Blog",
         "description": "Via Bot announcements, feature update information and related articles",
         "url": "/blog?source=pwa",
-        "icons": [{ "src": "/img/vialogo.png", "sizes": "192x192" }]
+        "icons": [{ "src": "/Website/img/vialogo.png", "sizes": "192x192" }]
       }
     ],
     "description": "The Via Bot Documentation and Blog.",
