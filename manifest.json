@@ -17,7 +17,7 @@
     "background_color": "#67d6ed",
     "display_override": ["standalone", "minimal-ui"],
     "display": "window-control-overlay",
-    "scope": "/",
+    "scope": "/Website",
     "theme_color": "#67d6ed",
     "shortcuts": [
       {
