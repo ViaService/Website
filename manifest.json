@@ -13,7 +13,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "/?source=pwa",
+    "start_url": "/Website?source=pwa",
     "background_color": "#67d6ed",
     "display_override": ["standalone", "minimal-ui"],
     "display": "window-control-overlay",
