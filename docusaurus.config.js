@@ -149,7 +149,7 @@ const config = {
             {
               tagName: 'link',
               rel: 'manifest',
-              href: '/static/manifest.json', // your PWA manifest
+              href: '/manifest.json', // your PWA manifest
             },
             {
               tagName: 'meta',
