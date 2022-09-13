@@ -1,0 +1,46 @@
+{
+    "short_name": "ViaService",
+    "name": "The Via Bot",
+    "icons": [
+      {
+        "src": "/img/logo.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/img/vialogo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#67d6ed",
+    "display_override": ["standalone", "minimal-ui"],
+    "display": "window-control-overlay",
+    "scope": "/",
+    "theme_color": "#67d6ed",
+    "shortcuts": [
+      {
+        "name": "Documentation",
+        "short_name": "Docs",
+        "description": "The entire guide to set up and use the Via Bot",
+        "url": "/docs/intro?source=pwa",
+        "icons": [{ "src": "/img/vialogo.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "The Via Blog",
+        "short_name": "Blog",
+        "description": "Via Bot announcements, feature update information and related articles",
+        "url": "/blog?source=pwa",
+        "icons": [{ "src": "/img/vialogo.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "The Via Bot Documentation and Blog.",
+    "screenshots": [
+      {
+        "src": "/img/viaservice_github_banner.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      }
+    ]
+  }

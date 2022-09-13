@@ -129,6 +129,37 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    plugins: [
+      [
+        '@docusaurus/plugin-pwa',
+        {
+          debug: true,
+          offlineModeActivationStrategies: [
+            'appInstalled',
+            'standalone',
+            'queryString',
+            'mobile'
+          ],
+          pwaHead: [
+            {
+              tagName: 'link',
+              rel: 'icon',
+              href: '/static/img/vialogo.png',
+            },
+            {
+              tagName: 'link',
+              rel: 'manifest',
+              href: '/static/manifest.json', // your PWA manifest
+            },
+            {
+              tagName: 'meta',
+              name: 'theme-color',
+              content: 'rgb(37, 194, 160)',
+            },
+          ],
+        },
+      ],
+    ],
 };
 
 module.exports = config;
