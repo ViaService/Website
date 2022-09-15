@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'The Via Service',
   tagline: 'Documentation, blog, support all in one place',
-  url: 'https://viadocs.netlify.app/',
+  url: 'https://viabot.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
