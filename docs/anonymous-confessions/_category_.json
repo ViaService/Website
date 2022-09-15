@@ -1,0 +1,8 @@
+{
+  "label": "Anonymous Confessions",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Allow your members to reveal their secrets and feelings without revealing their identity! This feature works best in friendships and hangout servers."
+  }
+}

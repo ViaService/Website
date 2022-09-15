@@ -1,0 +1,8 @@
+{
+  "label": "Active and Loyal Roles",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "These are special roles that are automatically given to members when they are texting, joining a voice channel or setting their custom status to support your server."
+  }
+}
