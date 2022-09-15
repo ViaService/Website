@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Privacy Policy
 
 Learn about how we collect, process and store your data.
@@ -58,11 +54,16 @@ This feature is optional and can be enabled or disabled by the server members wi
 This feature is optional and can be enabled or disabled by the server members with ADMINISTRATOR permissions. The following processes happen only if a confession channel is set.
 :::
 
+- Via bot saves your confessions data and confession replies data along with your user ID in it's database. 
+- The confessions data can be accessed by your server owner and certain admins. This data is used to moderate the confessions.
+- To respect your privacy, Via bot informs you whenever the owner/admin checks the data of one (or more) of your confessions.
+- If your confession is deleted, it's data is no longer accessible by the owner and the admins.
+
+
 :::danger Your user ID is linked to your confessions and replies!
-Although not visible to anyone including the server owner and admins, your user ID is linked to your confessions and confession replies. This is done to prevent abuse of the confession feature.
+Your user ID is linked to your confessions and confession replies and may be visible to the server owner and certain admins. This is done to prevent abuse of the confession feature.
 :::
 
-Confessions are in development and we are unable to declare a privacy policy for the same. However, we can assure you that we will not misuse your data in any way. 
 
 ## Saving The Data
 ### Storage Location And Access

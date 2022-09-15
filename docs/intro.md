@@ -1,47 +1,37 @@
 ---
 sidebar_position: 1
+title: Welcome
+description: Guide to using The Via Bot
+slug: /
+tags: [Active Roles, Loyal Roles]
 ---
 
-# Tutorial Intro
+# Welcome
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Via Bot less than 5 minutes**.
 
-## Getting Started
+![Banner](/img/viaservice_github_banner.png)
 
-Get started by **creating a new site**.
+## Via Bot In A Nutshell
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Via is a discord bot that gives roles to actively texting members, members in voice channels and members with a custom status that supports the server. 
 
-### What you'll need
+For example, when a member sends a message in your server, they get the active role, say, `@Active`. They have it as long as they continue texting in your server. The bot removes the role after a certain amount of time after their last message. 
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Here's another example. You have a server called **Wumpus World**. You want to give the **@Supporters** role to members who have a custom status of `.gg/wumpus`. Via Bot's loyal roles feature can do this for you!
 
-## Generate a new site
+### So you got a DM
 
-Generate a new Docusaurus site using the **classic template**.
+- When you are in a community which has the active roles or loyal roles feature enabled, you will get a DM if you are getting the role for the first time from the bot.
+  - The `ID:000` in the bottom of the DM message is your Via ID. You can use it when contacting us in our support server.
 
-The classic template will automatically be added to your project after you run the command:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### Hey, thanks by the way :D
+Discord is a place where humans and bots live together in harmony. Today, you discovered the Via Bot. We hope you will enjoy using it!
+\- Ahmed Baari
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Support and Feedback
+We reside all day in our [**support server**](https://discord.gg/ZNukApCu8Y). Feel free to ask for help and give your feedback. We are always happy to hear from you.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Get Started
+Click on the **Next** button below to get started with the Via Bot. Good Luck!

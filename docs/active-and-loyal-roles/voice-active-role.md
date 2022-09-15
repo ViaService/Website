@@ -1,5 +1,9 @@
 ---
 sidebar_position: 3
+title: Voice Active Role
+description: Award a special role to members in voice channels
+slug: /active-roles/voice
+tags: [Active Roles]
 ---
 
 # Voice Active Role

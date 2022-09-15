@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+title: Get Started
+description: Follow these steps before you setup active and loyal roles.
+slug: /active-and-loyal-roles/get-started
+tags: [Active Roles, Loyal Roles]
 ---
 
 # Get Started

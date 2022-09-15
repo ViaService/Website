@@ -1,5 +1,9 @@
 ---
 sidebar_position: 4
+title: Custom Status Loyal Role
+description: Award a special role to members having a custom status of your choosing
+slug: /loyal-roles
+tags: [Loyal Roles]
 ---
 
 # Loyal Role

@@ -24,7 +24,7 @@
         "name": "Documentation",
         "short_name": "Docs",
         "description": "The entire guide to set up and use the Via Bot",
-        "url": "/docs/intro?source=pwa",
+        "url": "/docs?source=pwa",
         "icons": [{ "src": "/img/vialogo.png", "sizes": "192x192" }]
       },
       {

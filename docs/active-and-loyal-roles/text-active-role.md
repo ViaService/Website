@@ -1,5 +1,9 @@
 ---
 sidebar_position: 2
+title: Text Active Role
+description: Award a special role to actively texting members
+slug: /active-roles/text
+tags: [Active Roles]
 ---
 
 # Text Active Role

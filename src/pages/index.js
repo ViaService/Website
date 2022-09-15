@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Setup The Via Bot in 2 Minutes ⏱️
+            to="/docs">
+            Setup The Via Bot in 5 Minutes ⏱️
           </Link>
         </div>
       </div>
@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Automate active and voice roles`}
+      description="A discord bot that gives roles to actively texting members, members in voice channels and members with a custom status that supports the server. Via also comes with Anonymous Confessions.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
