@@ -69,6 +69,10 @@ const config = {
           content:
             "A discord bot that gives roles to actively texting members, members in voice channels and members with a custom status that supports the server. Via also comes with Anonymous Confessions.",
         },
+        {
+          name: "image",
+          content: "https://cdn.discordapp.com/attachments/1019930932284768256/1019931012672794665/The_Via_Service.png",
+        },
         // Facebook
         {
           property: "og:type",
@@ -80,7 +84,7 @@ const config = {
         },
         {
           property: "og:image",
-          content: "img/viaservice_github_banner.png", 
+          content: "https://cdn.discordapp.com/attachments/1019930932284768256/1019931012672794665/The_Via_Service.png", 
         },
         // Twitter
         {
@@ -97,7 +101,7 @@ const config = {
         },
         {
           name: "twitter:image",
-          content: "img/viaservice_github_banner.png",
+          content: "https://cdn.discordapp.com/attachments/1019930932284768256/1019931012672794665/The_Via_Service.png",
         }
       ],
       algolia: {
