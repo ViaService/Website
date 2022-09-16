@@ -5,10 +5,8 @@ import Layout from '@theme/Layout'
 import Link from '@docusaurus/Link'
 import { useColorMode } from '@docusaurus/theme-common'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import useBaseUrl from '@docusaurus/useBaseUrl'
 import { useLatestVersion } from '@docusaurus/plugin-content-docs/client'
 import Translate, { translate } from '@docusaurus/Translate'
-import { CreateTauriApp } from '@theme/Command'
 
 // See translations for label and description
 
@@ -20,7 +18,7 @@ function Cards() {
         message:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       }),
-      link: '/active-and-loyal-roles/get-started',
+      link: '/',
       isDoc: true,
       linkText: translate({ message: 'Lorem ipsum' }),
       imageUrl: 'img/index/illustrations/brownfield.svg',
@@ -31,7 +29,7 @@ function Cards() {
         message:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }),
-      link: '/active-and-loyal-roles/get-started',
+      link: '/',
       isDoc: true,
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/security.svg',
@@ -42,7 +40,7 @@ function Cards() {
         message:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }),
-      link: '/active-and-loyal-roles/get-started',
+      link: '/',
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/floss.svg',
     },
@@ -52,7 +50,7 @@ function Cards() {
         message:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }),
-      link: '/active-and-loyal-roles/get-started',
+      link: '/',
       isDoc: true,
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/box.svg',
@@ -196,11 +194,11 @@ function DynamicHeaderImage() {
   useEffect(() => {
     const images = []
 
-    const darkTauriLogo = (new Image().src = 'img/via.png')
-    images.push(darkTauriLogo)
+    const darkViaLogo = (new Image().src = 'img/via_dark.png')
+    images.push(darkViaLogo)
 
-    const lightTauriLogo = (new Image().src = 'img/via.png')
-    images.push(lightTauriLogo)
+    const lightViaLogo = (new Image().src = 'img/via.png')
+    images.push(lightViaLogo)
   }, [])
 
   // // Set dark mode correctly
@@ -213,7 +211,7 @@ function DynamicHeaderImage() {
       src={
         isDarkMode
           ? '/img/via.png'
-          : '/img/via.png'
+          : '/img/via_dark.png'
       }
     />
   )
@@ -257,7 +255,7 @@ export default function App() {
 
           <Link
             className={classNames('button button--secondary button--lg')}
-            to={latestVersion.path + '/guides/getting-started/setup'}
+            to={latestVersion.path + '/'}
           >
             <Translate>Quick Start</Translate>
           </Link>
