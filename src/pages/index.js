@@ -20,7 +20,7 @@ function Cards() {
         message:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       }),
-      link: '/guides/getting-started/setup',
+      link: '/active-and-loyal-roles/get-started',
       isDoc: true,
       linkText: translate({ message: 'Lorem ipsum' }),
       imageUrl: 'img/index/illustrations/brownfield.svg',
@@ -31,7 +31,7 @@ function Cards() {
         message:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }),
-      link: '/references/architecture/security',
+      link: '/active-and-loyal-roles/get-started',
       isDoc: true,
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/security.svg',
@@ -42,7 +42,7 @@ function Cards() {
         message:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }),
-      link: 'about/intro#honest-open-source',
+      link: '/active-and-loyal-roles/get-started',
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/floss.svg',
     },
@@ -52,7 +52,7 @@ function Cards() {
         message:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }),
-      link: '/references/benchmarks',
+      link: '/active-and-loyal-roles/get-started',
       isDoc: true,
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/box.svg',
