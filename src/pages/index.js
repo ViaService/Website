@@ -13,44 +13,45 @@ import Translate, { translate } from '@docusaurus/Translate'
 function Cards() {
   const cards = [
     {
-      label: translate({ message: 'Lorem ipsum' }),
+      label: translate({ message: 'Text Active Roles' }),
       description: translate({
         message:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "Automatically award a special role to members who are actively texting in your server. This role will be automatically removed when they stop texting.",
       }),
-      link: '/',
+      link: '/active-roles/text/',
       isDoc: true,
-      linkText: translate({ message: 'Lorem ipsum' }),
+      linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/brownfield.svg',
     },
     {
-      label: translate({ message: 'Lorem ipsum' }),
+      label: translate({ message: 'Voice Active Roles' }),
       description: translate({
         message:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        'Automatically award a special role to members in your server\'s voice channels. This role will be automatically removed when they leave the voice channels.'
       }),
-      link: '/',
+      link: '/active-roles/voice/',
       isDoc: true,
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/security.svg',
     },
     {
-      label: translate({ message: 'Lorem ipsum ' }),
+      label: translate({ message: 'Custom Status Loyal Roles' }),
       description: translate({
         message:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        'Automatically award a special role to members with a custom status that supports your server (For example: "Join discord.gg/your-server-name"). The role is removed automatically when the custom status is changed.'
       }),
-      link: '/',
+      link: '/loyal-roles/',
       linkText: translate({ message: 'Learn More' }),
+      isDoc: true,
       imageUrl: 'img/index/illustrations/floss.svg',
     },
     {
-      label: translate({ message: 'Lorem ipsum' }),
+      label: translate({ message: 'Anonymous Confessions and Replies' }),
       description: translate({
         message:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        'Allow your members to reveal their secrets and feelings without revealing their identity! This feature works best in friendships and hangout servers.'
       }),
-      link: '/',
+      link: '/confessions/',
       isDoc: true,
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/box.svg',
@@ -86,26 +87,27 @@ function Cards() {
 function Features() {
   const items = [
     {
-      title: translate({ message: 'Lorem ipsum' }),
+      title: translate({ message: 'Fluffy | Founder - ChillCm (1K)' }),
       description: translate({
-        message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        message: '(Coming soon. Join support server to add your review)',
       }),
       icon: 'box-seam',
     },
     {
-      title: translate({ message: 'Lorem ipsum' }),
+      title: translate({ message: 'Arav | Founder - Wholesome Posting (20K)' }),
       description: translate({
-        message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        message: '(Coming soon. Join support server to add your review)',
       }),
       icon: 'cloud-arrow-down',
     },
     {
-      title: translate({ message: 'Lorem ipsum' }),
+      title: translate({ message: 'Adrian | Founder - Kimetsu (1K)' }),
       description: translate({
-        message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        message: 'I liked the bot. The active and loyal roles works very well',
       }),
       icon: 'puzzle',
     },
+    /*
     {
       title: translate({ message: 'Lorem ipsum' }),
       description: translate({
@@ -147,7 +149,7 @@ function Features() {
         message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
       }),
       icon: 'folder2-open',
-    },
+    }, */
   ]
 
   return (
@@ -240,14 +242,14 @@ export default function App() {
         </div>
         <div className={classNames(styles.heroContainer)}>
           <p className={classNames(styles.heroSubtitle, 'hero__subtitle')}>
-            <Translate>Announcing the release of</Translate>
+            <Translate>A new way to make your discord server great again</Translate>
           </p>
           <span className={classNames(styles.heroImage)}>
             <DynamicHeaderImage />
           </span>
           <div className={classNames(styles.heroSubtitle, 'hero__subtitle')}>
             <Translate>
-              A Discord bot that allows you to create and manage your own custom commands. Documentation and stuff here
+              Active texting roles, voice roles, custom status loyal roles, anonymous confessions and more!
             </Translate>
           </div>
 
@@ -257,7 +259,7 @@ export default function App() {
             className={classNames('button button--secondary button--lg')}
             to={latestVersion.path + '/'}
           >
-            <Translate>Quick Start</Translate>
+            <Translate>Get Started</Translate>
           </Link>
         </div>
         <div className={classNames(styles.heroAfter)}>
@@ -279,7 +281,7 @@ export default function App() {
 
         <section className="hero">
           <div className="container">
-            <h1 className={styles.h1}>Features</h1>
+            <h1 className={styles.h1}>What Community Leaders Feel About Via Bot</h1>
             <div className={styles.row}>
               <Features />
             </div>
