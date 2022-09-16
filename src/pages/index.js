@@ -20,7 +20,7 @@ function Cards() {
         message:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       }),
-      link: '/active-and-loyal-roles/get-started',
+      link: '/',
       isDoc: true,
       linkText: translate({ message: 'Lorem ipsum' }),
       imageUrl: 'img/index/illustrations/brownfield.svg',
@@ -31,7 +31,7 @@ function Cards() {
         message:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }),
-      link: '/active-and-loyal-roles/get-started',
+      link: '/',
       isDoc: true,
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/security.svg',
@@ -42,7 +42,7 @@ function Cards() {
         message:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }),
-      link: '/active-and-loyal-roles/get-started',
+      link: '/',
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/floss.svg',
     },
@@ -52,7 +52,7 @@ function Cards() {
         message:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       }),
-      link: '/active-and-loyal-roles/get-started',
+      link: '/',
       isDoc: true,
       linkText: translate({ message: 'Learn More' }),
       imageUrl: 'img/index/illustrations/box.svg',
@@ -257,7 +257,7 @@ export default function App() {
 
           <Link
             className={classNames('button button--secondary button--lg')}
-            to={latestVersion.path + '/guides/getting-started/setup'}
+            to={latestVersion.path + '/'}
           >
             <Translate>Quick Start</Translate>
           </Link>
