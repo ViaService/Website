@@ -1,26 +1,14 @@
-/* stylelint-disable docusaurus/copyright-header */
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
 @import '@fontsource/rubik';
 @import 'bootstrap-icons';
 
-/* You can override the default Infima variables here. */
 :root {
   font-family: 'Rubik', sans-serif;
-  --tauri-orange: #d58100;
-
+  --Via-orange: #d58100;
   --ifm-h5-font-size: var(--ifm-h4-font-size);
   --ifm-h6-font-size: var(--ifm-h4-font-size);
-
   --ifm-card-background-color: #f6f6f6;
-
   --docusaurus-highlighted-code-line-bg: white;
 }
-
 [data-theme='dark'] {
   --ifm-color-primary: #67d6ed;
   --ifm-color-primary-dark: #49cee9;
@@ -29,12 +17,9 @@
   --ifm-color-primary-light: #85def1;
   --ifm-color-primary-lighter: #95e2f2;
   --ifm-color-primary-lightest: #c2eff8;
-
   --ifm-card-background-color: #2f2f2f;
-
   --docusaurus-highlighted-code-line-bg: rgb(100, 100, 100);
-
-  --tauri-orange: #ffc131;
+  --Via-orange: #ffc131;
 }
 
 .mermaid svg {
@@ -70,8 +55,7 @@
   }
 }
 
-/* Required due to a lot of items in navbar */
-/* https://github.com/facebook/docusaurus/issues/7635 */
+
 @media only screen and (max-width: 1300px) {
   .navbar__items {
     white-space: nowrap;
@@ -129,15 +113,6 @@ html[data-theme='light'] .gitHubIcon::before {
   scroll-margin-top: calc(var(--ifm-navbar-height) + 0.5rem);
 }
 
-pre.language-shell .token-line::before {
-  content: '$ ';
-}
-
-pre.language-powershell > code::before {
-  content: 'PS C:\\> ';
-}
-
-/* Make only as wide as the text, not the full width of the page */
 blockquote {
   padding-left: unset;
 }

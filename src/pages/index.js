@@ -5,10 +5,8 @@ import Layout from '@theme/Layout'
 import Link from '@docusaurus/Link'
 import { useColorMode } from '@docusaurus/theme-common'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import useBaseUrl from '@docusaurus/useBaseUrl'
 import { useLatestVersion } from '@docusaurus/plugin-content-docs/client'
 import Translate, { translate } from '@docusaurus/Translate'
-import { CreateTauriApp } from '@theme/Command'
 
 // See translations for label and description
 
@@ -196,11 +194,11 @@ function DynamicHeaderImage() {
   useEffect(() => {
     const images = []
 
-    const darkTauriLogo = (new Image().src = 'img/via.png')
-    images.push(darkTauriLogo)
+    const darkViaLogo = (new Image().src = 'img/via.png')
+    images.push(darkViaLogo)
 
-    const lightTauriLogo = (new Image().src = 'img/via.png')
-    images.push(lightTauriLogo)
+    const lightViaLogo = (new Image().src = 'img/via.png')
+    images.push(lightViaLogo)
   }, [])
 
   // // Set dark mode correctly
