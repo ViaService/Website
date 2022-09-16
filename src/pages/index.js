@@ -194,7 +194,7 @@ function DynamicHeaderImage() {
   useEffect(() => {
     const images = []
 
-    const darkViaLogo = (new Image().src = 'img/via.png')
+    const darkViaLogo = (new Image().src = 'img/via_dark.png')
     images.push(darkViaLogo)
 
     const lightViaLogo = (new Image().src = 'img/via.png')
@@ -211,7 +211,7 @@ function DynamicHeaderImage() {
       src={
         isDarkMode
           ? '/img/via.png'
-          : '/img/via.png'
+          : '/img/via_dark.png'
       }
     />
   )
