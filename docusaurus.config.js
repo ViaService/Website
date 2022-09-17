@@ -150,7 +150,7 @@ const config = {
           },
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://discord.com/api/oauth2/authorize?client_id=920310412765954048&permissions=8&scope=bot%20applications.commands",
+            href: "https://discord.com/api/oauth2/authorize?client_id=851470585313230849&permissions=533619666241&scope=applications.commands%20bot",
             label: "Try Via Bot",
             position: "right",
           },
@@ -185,7 +185,7 @@ const config = {
               },
               {
                 label: "Get The Bot",
-                href: "https://discord.com/api/oauth2/authorize?client_id=920310412765954048&permissions=8&scope=bot%20applications.commands",
+                href: "https://discord.com/api/oauth2/authorize?client_id=851470585313230849&permissions=533619666241&scope=applications.commands%20bot",
               },
             ],
           },
